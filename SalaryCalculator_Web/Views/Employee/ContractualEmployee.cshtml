@@ -1,0 +1,103 @@
+﻿@model SalaryCalculator_Common.Models.ContractualEmployeeModel
+@using SalaryCalculator_Common.Enums
+@{
+    ViewData["Title"] = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h4>Contractual Employee</h4>
+<hr />
+<dl class="row">
+    <dt class="col-sm-2">
+        @Html.DisplayNameFor(model => model.Id)
+    </dt>
+    <dd class="col-sm-10">
+        @Html.DisplayFor(model => model.Id)
+    </dd>
+    <dt class="col-sm-2">
+        @Html.DisplayNameFor(model => model.Name)
+    </dt>
+    <dd class="col-sm-10">
+        @Html.DisplayFor(model => model.Name)
+    </dd>
+    <dt class="col-sm-2">
+        @Html.DisplayNameFor(model => model.BirthDate)
+    </dt>
+    <dd class="col-sm-10">
+        @Html.DisplayFor(model => model.BirthDate)
+    </dd>
+    <dt class="col-sm-2">
+        @Html.DisplayNameFor(model => model.TIN)
+    </dt>
+    <dd class="col-sm-10">
+        @Html.DisplayFor(model => model.TIN)
+    </dd>
+    <dt class="col-sm-2">
+        @Html.DisplayNameFor(model => model.EmployeeTypeName)
+    </dt>
+    <dd class="col-sm-10">
+        @Html.DisplayFor(model => model.EmployeeTypeName)
+    </dd>
+</dl>
+<form asp-action="GetSalary" id="frmSalary">
+    <div class="row">
+        <div class="col-md-4">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="RatePerDay" class="control-label"></label>
+                <input asp-for="RatePerDay" class="form-control" id="txtRatePerDay" />
+                <span asp-validation-for="RatePerDay" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DaysWorked" class="control-label"></label>
+                <input asp-for="DaysWorked" class="form-control" id="txtDaysWorked" />
+                <span asp-validation-for="DaysWorked" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input hidden asp-for="Id" class="form-control" id="txtId" />
+                <button type="button" onclick="computeSalary();" class="btn btn-primary">Compute Salary</button>
+            </div>
+        </div>
+    </div>
+</form>
+<div>
+    <strong><label class="control-label">Computed Salary</label>: </strong><label class="control-label" id="lblComputedSalary">0.00</label>
+</div>
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+    <script>
+        function computeSalary() {
+            
+            let Id = $("#txtId").val().trim();
+            let RatePerDay =  parseFloat($("#txtRatePerDay").val().trim());
+            let DaysWorked = parseFloat($("#txtDaysWorked").val().trim());
+
+            if (RatePerDay < 0 || DaysWorked < 0) 
+                return;
+           
+            const url = "https://localhost:44390/api/employee/salary/"
+            $.ajax({
+                contentType: 'application/json',
+                type: "POST",
+                url: url,
+                crossDomain: true,
+                data: JSON.stringify({
+                    "Id": Id,
+                    "RatePerDay": RatePerDay,
+                    "DaysWorked": DaysWorked,
+                }),
+                success: function (data, textStatus, jqXHR) {
+                    $("#lblComputedSalary")[0].innerText = data.salary;
+
+                },
+                error: function (jqXHR, textStatus, errorThrown) {
+                    alert("Error Computing Salary");
+                }
+            });
+        }
+    </script>
+}

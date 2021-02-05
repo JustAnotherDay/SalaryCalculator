@@ -1,0 +1,8 @@
+C:\Users\senie\source\repos\Sprout.SalaryCalculator\Sprout.Common\bin\Debug\netcoreapp3.1\Sprout.Common.deps.json
+C:\Users\senie\source\repos\Sprout.SalaryCalculator\Sprout.Common\bin\Debug\netcoreapp3.1\Sprout.Common.dll
+C:\Users\senie\source\repos\Sprout.SalaryCalculator\Sprout.Common\bin\Debug\netcoreapp3.1\Sprout.Common.pdb
+C:\Users\senie\source\repos\Sprout.SalaryCalculator\Sprout.Common\obj\Debug\netcoreapp3.1\Sprout.Common.AssemblyInfoInputs.cache
+C:\Users\senie\source\repos\Sprout.SalaryCalculator\Sprout.Common\obj\Debug\netcoreapp3.1\Sprout.Common.AssemblyInfo.cs
+C:\Users\senie\source\repos\Sprout.SalaryCalculator\Sprout.Common\obj\Debug\netcoreapp3.1\Sprout.Common.dll
+C:\Users\senie\source\repos\Sprout.SalaryCalculator\Sprout.Common\obj\Debug\netcoreapp3.1\Sprout.Common.pdb
+C:\Users\senie\source\repos\Sprout.SalaryCalculator\Sprout.Common\obj\Debug\netcoreapp3.1\Sprout.Common.csprojAssemblyReference.cache

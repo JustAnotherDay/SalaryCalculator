@@ -1,0 +1,278 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\senie\\source\\repos\\Sprout.SalaryCalculator\\Sprout.SalaryCalculator_Tests\\Sprout.SalaryCalculator_Tests.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\senie\\source\\repos\\Sprout.SalaryCalculator\\Sprout.Common\\SalaryCalculator_Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\senie\\source\\repos\\Sprout.SalaryCalculator\\Sprout.Common\\SalaryCalculator_Common.csproj",
+        "projectName": "SalaryCalculator_Common",
+        "projectPath": "C:\\Users\\senie\\source\\repos\\Sprout.SalaryCalculator\\Sprout.Common\\SalaryCalculator_Common.csproj",
+        "packagesPath": "C:\\Users\\senie\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\senie\\source\\repos\\Sprout.SalaryCalculator\\Sprout.Common\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\senie\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\senie\\Downloads": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://www.nuget.org/api/v2/": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\senie\\source\\repos\\Sprout.SalaryCalculator\\Sprout.SalaryCalculatorManager\\Sprout.SalaryCalculatorService.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\senie\\source\\repos\\Sprout.SalaryCalculator\\Sprout.SalaryCalculatorManager\\Sprout.SalaryCalculatorService.csproj",
+        "projectName": "Sprout.SalaryCalculatorService",
+        "projectPath": "C:\\Users\\senie\\source\\repos\\Sprout.SalaryCalculator\\Sprout.SalaryCalculatorManager\\Sprout.SalaryCalculatorService.csproj",
+        "packagesPath": "C:\\Users\\senie\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\senie\\source\\repos\\Sprout.SalaryCalculator\\Sprout.SalaryCalculatorManager\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\senie\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\senie\\Downloads": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://www.nuget.org/api/v2/": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\senie\\source\\repos\\Sprout.SalaryCalculator\\Sprout.Common\\SalaryCalculator_Common.csproj": {
+                "projectPath": "C:\\Users\\senie\\source\\repos\\Sprout.SalaryCalculator\\Sprout.Common\\SalaryCalculator_Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\senie\\source\\repos\\Sprout.SalaryCalculator\\Sprout.SalaryCalculator\\SalaryCalculator_Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\senie\\source\\repos\\Sprout.SalaryCalculator\\Sprout.SalaryCalculator\\SalaryCalculator_Api.csproj",
+        "projectName": "SalaryCalculator_Api",
+        "projectPath": "C:\\Users\\senie\\source\\repos\\Sprout.SalaryCalculator\\Sprout.SalaryCalculator\\SalaryCalculator_Api.csproj",
+        "packagesPath": "C:\\Users\\senie\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\senie\\source\\repos\\Sprout.SalaryCalculator\\Sprout.SalaryCalculator\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\senie\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\senie\\Downloads": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://www.nuget.org/api/v2/": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\senie\\source\\repos\\Sprout.SalaryCalculator\\Sprout.SalaryCalculator_Tests\\Sprout.SalaryCalculator_Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\senie\\source\\repos\\Sprout.SalaryCalculator\\Sprout.SalaryCalculator_Tests\\Sprout.SalaryCalculator_Tests.csproj",
+        "projectName": "Sprout.SalaryCalculator_Tests",
+        "projectPath": "C:\\Users\\senie\\source\\repos\\Sprout.SalaryCalculator\\Sprout.SalaryCalculator_Tests\\Sprout.SalaryCalculator_Tests.csproj",
+        "packagesPath": "C:\\Users\\senie\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\senie\\source\\repos\\Sprout.SalaryCalculator\\Sprout.SalaryCalculator_Tests\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\senie\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\senie\\Downloads": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://www.nuget.org/api/v2/": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\senie\\source\\repos\\Sprout.SalaryCalculator\\Sprout.Common\\SalaryCalculator_Common.csproj": {
+                "projectPath": "C:\\Users\\senie\\source\\repos\\Sprout.SalaryCalculator\\Sprout.Common\\SalaryCalculator_Common.csproj"
+              },
+              "C:\\Users\\senie\\source\\repos\\Sprout.SalaryCalculator\\Sprout.SalaryCalculatorManager\\Sprout.SalaryCalculatorService.csproj": {
+                "projectPath": "C:\\Users\\senie\\source\\repos\\Sprout.SalaryCalculator\\Sprout.SalaryCalculatorManager\\Sprout.SalaryCalculatorService.csproj"
+              },
+              "C:\\Users\\senie\\source\\repos\\Sprout.SalaryCalculator\\Sprout.SalaryCalculator\\SalaryCalculator_Api.csproj": {
+                "projectPath": "C:\\Users\\senie\\source\\repos\\Sprout.SalaryCalculator\\Sprout.SalaryCalculator\\SalaryCalculator_Api.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.4.0, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[3.15.1, )"
+            },
+            "nunit": {
+              "target": "Package",
+              "version": "[3.12.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

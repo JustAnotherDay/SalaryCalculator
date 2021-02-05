@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Sprout.SalaryCalculatorService/1.0.0": {
+        "dependencies": {
+          "Sprout.Common": "1.0.0"
+        },
+        "runtime": {
+          "Sprout.SalaryCalculatorService.dll": {}
+        }
+      },
+      "Sprout.Common/1.0.0": {
+        "runtime": {
+          "Sprout.Common.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Sprout.SalaryCalculatorService/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Sprout.Common/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

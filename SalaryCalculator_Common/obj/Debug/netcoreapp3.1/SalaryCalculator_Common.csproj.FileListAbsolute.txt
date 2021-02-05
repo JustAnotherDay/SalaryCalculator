@@ -1,0 +1,14 @@
+C:\Users\senie\source\repos\Sprout.SalaryCalculator\Sprout.Common\bin\Debug\netcoreapp3.1\SalaryCalculator_Common.deps.json
+C:\Users\senie\source\repos\Sprout.SalaryCalculator\Sprout.Common\bin\Debug\netcoreapp3.1\SalaryCalculator_Common.dll
+C:\Users\senie\source\repos\Sprout.SalaryCalculator\Sprout.Common\bin\Debug\netcoreapp3.1\SalaryCalculator_Common.pdb
+C:\Users\senie\source\repos\Sprout.SalaryCalculator\Sprout.Common\obj\Debug\netcoreapp3.1\SalaryCalculator_Common.AssemblyInfoInputs.cache
+C:\Users\senie\source\repos\Sprout.SalaryCalculator\Sprout.Common\obj\Debug\netcoreapp3.1\SalaryCalculator_Common.AssemblyInfo.cs
+C:\Users\senie\source\repos\Sprout.SalaryCalculator\Sprout.Common\obj\Debug\netcoreapp3.1\SalaryCalculator_Common.dll
+C:\Users\senie\source\repos\Sprout.SalaryCalculator\Sprout.Common\obj\Debug\netcoreapp3.1\SalaryCalculator_Common.pdb
+C:\Users\senie\source\repos\SalaryCalculator\SalaryCalculator_Common\bin\Debug\netcoreapp3.1\SalaryCalculator_Common.deps.json
+C:\Users\senie\source\repos\SalaryCalculator\SalaryCalculator_Common\bin\Debug\netcoreapp3.1\SalaryCalculator_Common.dll
+C:\Users\senie\source\repos\SalaryCalculator\SalaryCalculator_Common\bin\Debug\netcoreapp3.1\SalaryCalculator_Common.pdb
+C:\Users\senie\source\repos\SalaryCalculator\SalaryCalculator_Common\obj\Debug\netcoreapp3.1\SalaryCalculator_Common.AssemblyInfoInputs.cache
+C:\Users\senie\source\repos\SalaryCalculator\SalaryCalculator_Common\obj\Debug\netcoreapp3.1\SalaryCalculator_Common.AssemblyInfo.cs
+C:\Users\senie\source\repos\SalaryCalculator\SalaryCalculator_Common\obj\Debug\netcoreapp3.1\SalaryCalculator_Common.dll
+C:\Users\senie\source\repos\SalaryCalculator\SalaryCalculator_Common\obj\Debug\netcoreapp3.1\SalaryCalculator_Common.pdb

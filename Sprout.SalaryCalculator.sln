@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29905.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SalaryCalculator_Api", "SalaryCalculator_Api\SalaryCalculator_Api.csproj", "{DA1A9BF6-D5F7-49D2-B91C-7EF4E7551880}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SalaryCalculator_Tests", "SalaryCalculator_Tests\SalaryCalculator_Tests.csproj", "{08138492-A16C-4BDF-8524-4295D65A2DB0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SalaryCalculator_Common", "SalaryCalculator_Common\SalaryCalculator_Common.csproj", "{A76A16B8-55D4-494D-9ED3-08F684908D64}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SalaryCalculator_Core", "SalaryCalculator_Core\SalaryCalculator_Core.csproj", "{29BC631D-1513-497B-93F0-FA69D4723113}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SalaryCalculator_Data", "SalaryCalculator_Data\SalaryCalculator_Data.csproj", "{DB0B977E-1476-4D64-8602-F3BDC1904581}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SalaryCalculator_Web", "SalaryCalculator_Web\SalaryCalculator_Web.csproj", "{55E94AD6-624E-4B70-B926-3E245F4ED8D1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DA1A9BF6-D5F7-49D2-B91C-7EF4E7551880}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA1A9BF6-D5F7-49D2-B91C-7EF4E7551880}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA1A9BF6-D5F7-49D2-B91C-7EF4E7551880}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA1A9BF6-D5F7-49D2-B91C-7EF4E7551880}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08138492-A16C-4BDF-8524-4295D65A2DB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08138492-A16C-4BDF-8524-4295D65A2DB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08138492-A16C-4BDF-8524-4295D65A2DB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08138492-A16C-4BDF-8524-4295D65A2DB0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A76A16B8-55D4-494D-9ED3-08F684908D64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A76A16B8-55D4-494D-9ED3-08F684908D64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A76A16B8-55D4-494D-9ED3-08F684908D64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A76A16B8-55D4-494D-9ED3-08F684908D64}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29BC631D-1513-497B-93F0-FA69D4723113}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29BC631D-1513-497B-93F0-FA69D4723113}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29BC631D-1513-497B-93F0-FA69D4723113}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29BC631D-1513-497B-93F0-FA69D4723113}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB0B977E-1476-4D64-8602-F3BDC1904581}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB0B977E-1476-4D64-8602-F3BDC1904581}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB0B977E-1476-4D64-8602-F3BDC1904581}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB0B977E-1476-4D64-8602-F3BDC1904581}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55E94AD6-624E-4B70-B926-3E245F4ED8D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55E94AD6-624E-4B70-B926-3E245F4ED8D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55E94AD6-624E-4B70-B926-3E245F4ED8D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55E94AD6-624E-4B70-B926-3E245F4ED8D1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7FC76245-BB31-48F3-99B6-2AF60C68E388}
+	EndGlobalSection
+EndGlobal
