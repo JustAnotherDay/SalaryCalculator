@@ -6,3 +6,5 @@ Next Improvement in order:
 4. Write integration tests for controller
 5. Improve UI
 
+How to run:
+Run SalaryCalculator_Api first then run SalaryCalculator_Web.
